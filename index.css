@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.left{
+
+display: inline-block;
+position: absolute;
+ left: 34px;
+ top: 20px;
+}
+.left img{
+    padding-left: 10px;
+    width: 75px;
+    filter: invert(100%);
+}
+.left div{
+    font-size: 20px;
+    text-align: center;
+}
+.mid{
+display: block;
+width: 43%;
+margin: 20px auto;
+}
+.right{
+
+ display: inline-block;
+ position: absolute;
+ right: 34px;
+ top: 25px;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    cursor: pointer;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.btn:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+}
+.navbar li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.container{
+    float: right;
+    border: 3px solid white;
+    color: #fff;
+    margin: 8px 44px;
+    padding: 8px 15px;
+    width: 40%;
+    border-radius: 9px
+}
+#main{
+    padding-top: 4cm;
+}
+.form_grp input{
+    display: block;
+    text-align: center;
+    width: 65%;
+    margin: 5px auto;
+    padding: 2px 2px;
+}
+.container button{
+    display: block;
+    background-color: red;
+    margin: 2px auto;
+    padding: px 10px;
+    width: 23%;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+}
